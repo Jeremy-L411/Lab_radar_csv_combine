@@ -18,4 +18,10 @@ LABRADAR chronograph into a multi-sheet .xlsx file for easier viewing.
 
 ## Future Features 
 
--- Ability to change projectile weight and update energy with new values 
+-- Ability to change projectile weight and update energy with new values
+
+## UPDATING
+Creating a report that will show statistics from the report page 
+and will create a line chart from the shot track's. 
+Will possibly have a prediction of future velocity and energy 
+based on the 4 distances. 
