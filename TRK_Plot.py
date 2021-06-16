@@ -5,8 +5,9 @@ import pandas as pd
 import fnmatch
 import os
 
-trk_path = 'LBR/SR0028/TRK'
+trk_path = 'LBR/SR0032/TRK'
 trk_len = len(fnmatch.filter(os.listdir(trk_path), '*.csv'))  # Will be used to control loop
+
 
 def variables(path):
     """
@@ -52,7 +53,7 @@ dist = [cur_dist]
 
 for frame in df_list:
     print("frame", frame)
-    plt.plot(frame[cur_vel], frame[cur_dist])
+    plt.plot(frame[cur_dist], frame[cur_vel])
 
 plt.show()
 
